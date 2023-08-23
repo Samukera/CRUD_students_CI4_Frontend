@@ -52,7 +52,6 @@ export const getStudentId = async (token, id) => {
     const response = await Axios.get(
       `${apiUrl}/api/student/listStudent/${id}`,
       {
-        // withCredentials: true,
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -77,7 +76,6 @@ export const deleteStudent = async (token, id) => {
     const response = await Axios.delete(
       `${apiUrl}/api/student/deleteStudent/${id}`,
       {
-        // withCredentials: true,
         headers: {
           Authorization: `Bearer ${token}`,
         },
