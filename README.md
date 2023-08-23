@@ -35,3 +35,5 @@ Feita a configuração, você pode rodar o comando abaixo para rodar o projeto.
 ## Stack utilizada
 
 **Front-end:** ReactJS (Vite) + tailwindCSS + DaisyUI.
+
+Foram utilizadas essas tecnologias levando em consideração o intuito do projeto e objetivo.
