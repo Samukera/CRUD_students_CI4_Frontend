@@ -130,7 +130,7 @@ export default function EditModal({ show, onClose, studentData, onEdit }) {
                 id="address"
                 name="address"
                 type="text"
-                placeholder="Rua, Bairo, Nº Casa/AP, CEP, Estado/País"
+                placeholder="Rua, Bairro, Nº Casa/AP, CEP, Estado/País"
                 value={updatedStudentData ? updatedStudentData.address : ""}
                 onChange={handleInputChange}
                 autoComplete="text"
